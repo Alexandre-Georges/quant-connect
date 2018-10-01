@@ -1,7 +1,7 @@
 using System.Collections.Concurrent;
 
 namespace QuantConnect.Algorithm.CSharp {
-  public class Demo : QCAlgorithm {
+  public class Value : QCAlgorithm {
 
     private DateTime _startDate = new DateTime(2006, 02, 04);
     private DateTime _endDate = new DateTime(2018, 09, 10);
